@@ -1,0 +1,39 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "Running Shoes",
+        "description": "High-quality running shoes for long-distance training.",
+        "price": 120,
+        "imageUrl": "https://sunwhitebcn.com/cdn/shop/files/1_7df277e5-4b3d-4a6f-a76d-9fbfeb2f454a_1200x1200.png?v=1711601129"
+      },
+      {
+        "id": "2",
+        "name": "Basketball ",
+        "description": "Durable basketball shoes with extra ankle support.",
+        "price": 150,
+        "imageUrl": "https://i.insider.com/5f0f3c3c3f737014f95a4307?width=600&format=jpeg&auto=webp"
+      },
+      {
+        "id": "3",
+        "name": "Casual Sneakers",
+        "description": "Comfortable casual sneakers for everyday use.",
+        "price": 90,
+        "imageUrl": "https://i.insider.com/5f24680e3ad8613b250b0a88?width=700&format=jpeg&auto=webp"
+      },
+      {
+        "id": "4",
+        "name": "climbing Sneakers",
+        "description": "Comfortable mountain climbing sneakers for everyday use.",
+        "price": 90,
+        "imageUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/e0f75e71-7eed-4543-841f-77686c7e3a3a/WMNS+NIKE+COURT+LEGACY+LIFT.png"
+      },
+      {
+        "id": "5",
+        "name": "sprinding Sneakers",
+        "description": "Comfortable running sneakers for everyday use.",
+        "price": 90,
+        "imageUrl": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6de142b1-f672-48fd-8d39-9c23f09dad02/AIR+JORDAN+3+RETRO.png"
+      }
+    ]
+  }
