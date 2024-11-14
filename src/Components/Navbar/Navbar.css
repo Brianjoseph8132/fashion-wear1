@@ -1,0 +1,12 @@
+/* Add this to your CSS file */
+.nav-link:hover {
+    color: #007bff; /* Change text color on hover */
+    text-decoration: underline; /* Optional underline effect */
+  }
+  
+  .nav-link.active {
+    color: #0056b3; /* Active link color */
+  }
+.footer{
+    height: 200px;
+}
