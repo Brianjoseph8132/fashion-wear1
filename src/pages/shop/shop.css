@@ -1,0 +1,154 @@
+/* General Shop Page Styling */
+.shop-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Product Grid Styling */
+.products-grid {
+    display: flex;
+    flex-direction: row; /* Ensure products are laid out in a row */
+    flex-wrap: wrap; /* Allow products to wrap to the next line if necessary */
+    gap: 20px; /* Adds space between cards */
+    justify-content: flex-start; /* Align cards to the left */
+    overflow: hidden;
+}
+
+/* Individual Product Card Styling */
+.product-card {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+    background-color: #fff;
+}
+
+.product-card:hover {
+    transform: scale(1.03);
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-name {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-price {
+    color: #555;
+    font-size: 1.1em;
+}
+
+.cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.cart-btn:hover {
+    background-color: #218838;
+}
+
+/* Cart Section Styling */
+.cart-section {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto 0;
+}
+
+.cart-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-table th {
+    background-color: #f5f5f5;
+}
+
+.net-total {
+    text-align: right;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+.proceed-payment-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-align: center;
+}
+
+.proceed-payment-btn:hover {
+    background-color: #0056b3;
+}
+/* Add this to your CSS file */
+.product-card {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 255, 0.2); /* Initial blue box shadow */
+}
+
+.product-card:hover {
+    transform: translateY(-10px); /* Slight lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 255, 0.5); /* Stronger blue box shadow on hover */
+}
+/* Add margin-bottom to the AddProduct section */
+.add-product-section {
+    margin-bottom: 40px;  /* Adjust this value to your liking */
+}
+
+/* Center the product cards within the row */
+.row {
+    display: flex;
+    justify-content: center;  /* Centers the cards horizontally */
+    flex-wrap: wrap;           /* Allows wrapping of cards on smaller screens */
+    gap: 20px;                 /* Adds space between the cards */
+}
+
+/* Optional: Adjust the width of the product cards for better layout */
+.product-card {
+    width: 100%;
+    max-width: 250px;  /* You can adjust this value to your liking */
+    margin-bottom: 20px;
+}
