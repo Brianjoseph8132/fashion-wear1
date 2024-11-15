@@ -18,7 +18,7 @@ function AddProduct() {
     };
 
     try {
-      const response = await fetch('http://localhost:3000/products', {
+      const response = await fetch('https://fashion-backend-twg0.onrender.com/products', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

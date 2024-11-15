@@ -14,7 +14,7 @@ const Product = () => {
 
     // Fetch product data based on the id from URL params
     useEffect(() => {
-        fetch(`http://localhost:3000/products/${id}`)
+        fetch(`https://fashion-backend-twg0.onrender.com/products/${id}`)
             .then((res) => res.json())
             .then((data) => {
                 setProduct(data);
@@ -28,7 +28,7 @@ const Product = () => {
 
     // Handle delete product
     const handleDelete = () => {
-        fetch(`http://localhost:3000/products/${id}`, {
+        fetch(`https://fashion-backend-twg0.onrender.com/products/${id}`, {
             method: "DELETE",
         })
             .then((res) => res.json())
@@ -42,7 +42,7 @@ const Product = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        fetch(`http://localhost:3000/products/${id}`, {
+        fetch(`https://fashion-backend-twg0.onrender.com/products/${id}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json",
