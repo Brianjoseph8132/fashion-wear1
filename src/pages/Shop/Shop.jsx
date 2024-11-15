@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { FaCartPlus } from 'react-icons/fa';
+import { FaCartPlus } from "react-icons/fa";
+
 import { Link } from 'react-router-dom';
-import './Shop.css';
-import AddProduct from '../../components/AddProduct/AddProduct';
+import "./Shop.css";
+import AddProduct from '../../component/AddProduct/AddProduct';
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
