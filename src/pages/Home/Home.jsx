@@ -11,7 +11,7 @@ function Home() {
 
   // Fetch products data when the component mounts
   useEffect(() => {
-    fetch('http://localhost:3000/products')
+    fetch('https://fashion-backend-twg0.onrender.com/products')
       .then(response => response.json())
       .then(data => {
         setProducts(data);
